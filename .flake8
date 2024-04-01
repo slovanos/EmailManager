@@ -1,0 +1,3 @@
+[flake8]
+exclude = .myvenv,.venv,myvenv,venv,logs,archive,data
+extend-ignore = E501

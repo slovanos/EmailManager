@@ -1,0 +1,57 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# My local files
+my_*
+local_*
+
+# Virtual Environment
+myvenv/
+venv/
+.myvenv/
+.venv/
+
+# Env variables file (for dotenv for example)
+.env
+
+# My test files
+test*.py
+
+# Deploy, bin folders
+deploy/
+bin/
+
+# Ignore whole folder
+archive/
+test/
+local/
+
+# Ignore files but track empty folder
+logs/*
+!logs/.empty
+
+# sample
+data/*
+!data/sample-email.txt
+
+# IDE
+.vscode/
+
+# mypy and pytest
+.mypy_cache/
+.pytest_cache/
+
+# Compact code, bins
+*.tar
+
+# Python egg metadata, regenerated from source files by setuptools.
+*.egg-info
+
+# Credential files
+token.json
+credentials.json
+
+# Other
+todo.txt
+to-do*.txt
