@@ -1,6 +1,6 @@
 # Email Manager 
 
-**It automatically checks your emails and drafts replies, storing them in the respective folder for your review.!**
+**Automatically check your emails, draft replies, and store them in the respective folder for your review!**
 
 ## Prerequisites
 To get started, ensure you have the following:
@@ -8,20 +8,20 @@ To get started, ensure you have the following:
 - Gmail account
 - Access to Gmail API. Follow [these instructions](./readme_gmail_API.md) to set it up. 
 - OpenAI API Key. Get it from OpenAi and paste it on the .env file.
-- Python V3.10 or higher installed on your system
-- The python3-venv module for creating virtual environments.
+- Python v3.10 or higher installed on your system
+- (Optional) python3-venv module for creating virtual environments.
 
 ## Getting Started
 
 ### Installation
 
-1. Clone the repository or download the code:
+1. Clone the repository and navigate to the EmailManager folder:
 
 ```shell
-git clone https://github.com/slovanos/emailmanager
-cd emailmanager
+git clone https://github.com/slovanos/EmailManager
+cd EmailManager
 ```
-2. Create and activate a virtual environment:
+2. (Optional) Create and activate a virtual environment:
 
 ```shell
 python3 -m venv .myvenv
@@ -36,7 +36,7 @@ pip3 install -r requirements.txt
 
 1. Configure the parameters.py file with your preferences, instructions, and personal data.
 
-2. To run Email Manager, execute the following command:
+2. Run Email Manager from the command line with:
 
 ```shell
 (.myvenv)$ python3 email-replier.py
